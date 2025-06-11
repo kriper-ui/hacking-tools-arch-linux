@@ -1,20 +1,19 @@
 import os
 import time
 
-user = int(input())
-yay = int(input())
 
 print("Hello user this is a script for arch-linux to hacking!")
 
 print("Ok type 1 if you want install hyperland config, 2 if you want to install tools to hacking and 3 to install yay")
 
-print(user)
+user = int(input())
 
 if user == 1:
 
     print("First let's install git to download IMPORTANTE THAT IT NEED SOMETIMES RUN WITH SUDO!")
     print("Do you have yay installed? enter 1 if yes and 0 if no")
-    print(yay)
+    yay = int(input())
+    
     if yay == 0:
         os.system("sudo pacman -Syu")
     else:
