@@ -6,7 +6,7 @@ print("Hello user this is a script for arch-linux to hacking!")
 
 print("Ok type 1 if you want install hyperland config, 2 if you want to install tools to hacking and 3 to install yay")
 
-user = int(input())
+option = int(input())
 
 if user == 1:
 
