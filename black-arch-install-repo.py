@@ -8,7 +8,7 @@ print("Ok type 1 if you want install hyperland config, 2 if you want to install 
 
 option = int(input())
 
-if user == 1:
+if option == 1:
 
     print("First let's install git to download IMPORTANTE THAT IT NEED SOMETIMES RUN WITH SUDO!")
     print("Do you have yay installed? enter 1 if yes and 0 if no")
@@ -24,7 +24,7 @@ if user == 1:
     os.chdir("/Arch-Hyprland")
     os.system("chmod u+x install.sh && ./install")
 
-elif user == 2:
+elif option == 2:
 
     print("Ok let's do that IMPORTANTE THAT NEED THEN ENTER SUDO PASSWORD")
     os.mkdir("file-repo")
@@ -36,7 +36,7 @@ elif user == 2:
     os.system("sudo pacman -S nmap dirb metasploit wpscan hydra john netcat nikto ghidra virtualbox")
     print("I install basics tools to do CTF you must install more if you want!")
 
-elif user == 3:
+elif option == 3:
 
     print("Let's install yay IMPORTANTE THAT IT NEED SOMETIMES RUN WITH SUDO!")
     os.system("sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si")
