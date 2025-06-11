@@ -4,7 +4,7 @@ import time
 perm = os.getuid()
 
 if perm != 0:
-    print("Script may be run how root.")
+    print("Script may be run how root user.")
 else:
     
 print("Hello user this is a script for arch-linux to hacking!")
