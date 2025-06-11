@@ -1,5 +1,5 @@
 # hacking-tools-arch-linux
-that's simple script on python that can install black-arch repository and install some tools, install yay or install Hyperland.
+that's simple script on python that install black-arch repository and install some tools, install yay or install Hyperland.
 
 To install you can do it with git or wget
 
