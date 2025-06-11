@@ -11,4 +11,4 @@ then to run it you need to do command python3 black-arch-install-repo.py
 
 remenber that this script works only on arch-linux and in diferents moments you need to enter sudo password.
 
-thank to use it and enjoy :)
+thank's to use it and enjoy by tools:)
